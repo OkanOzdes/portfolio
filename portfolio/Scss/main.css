@@ -1,1 +1,112 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper .sidenav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20vw;
+  height: 100vh;
+  background: #231f20;
+}
+
+.wrapper .sidenav h1 {
+  color: #fff;
+  text-align: center;
+  line-height: 90px;
+  border-bottom: 1px dotted #fff;
+  margin-bottom: 50px;
+}
+
+.wrapper .sidenav ul li {
+  list-style: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.wrapper .sidenav ul li a {
+  font-size: 16px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 35px;
+}
+
+.wrapper .sidenav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active a {
+  text-decoration: underline;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+}
+
+.wrapper .sidenav .social-media {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+}
+
+.wrapper .sidenav .social-media a {
+  margin: 0 15px;
+  background: #575051;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .sidenav .social-media a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.fa-home, .fa-wrench, .fa-briefcase, .fa-file, .fa-address-book {
+  margin-right: 10px;
+}
+
+.wrapper .main-content {
+  width: 80vw;
+  margin-left: 20vw;
+}
+
+section {
+  height: 100vh;
+  padding: 20px;
+}
+/*# sourceMappingURL=main.css.map */
